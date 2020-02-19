@@ -26,7 +26,6 @@
     wasteNot2: {               common: true, buff: true, skillID: {"Leatherworker": 285} },
     manipulation: {            common: true, buff: true, skillID: {"Goldsmith": 278} },
     innerQuiet: {              common: true, buff: true, skillID: {"Alchemist": 258, "Armorer": 254, "Blacksmith": 253, "Carpenter": 252, "Culinarian": 259, "Goldsmith": 255, "Leatherworker": 257, "Weaver": 256} },
-    ingenuity: {               common: true, buff: true, skillID: {"Blacksmith": 277} },
     greatStrides: {            common: true, buff: true, skillID: {"Alchemist": 266, "Armorer": 262, "Blacksmith": 261, "Carpenter": 260, "Culinarian": 267, "Goldsmith": 263, "Leatherworker": 265, "Weaver": 264} },
     innovation: {              common: true, buff: true, skillID: {"Goldsmith": 284} },
     tricksOfTheTrade: {        common: true,             skillID: {"Alchemist": 100098} },
@@ -158,11 +157,10 @@
     {
       name: "Buffs", actions: [
         "innerQuiet",
-        "ingenuity",
         "greatStrides",
+        'veneration',
         "innovation",
-        "nameOfTheElements"//,
-      //"reuse"
+        "nameOfTheElements",
     ]
     },
     {
